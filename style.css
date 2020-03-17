@@ -73,15 +73,14 @@ body {
 
 .fa-rss-square {
     color: orange;
-    text-decoration: none;
 }
 
 .to-the-left a {
-    display: block;
+    float: left;
     color: green;
-    text-align: left;
     padding: 10px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .central {
@@ -141,25 +140,28 @@ footer hr {
     margin: auto;
 }
 
-footer i:first-of-type {
+footer a:first-of-type {
     position: absolute;
     top: 50%;
     left: 16%;
     font-size: 30px;
+    color: black;
 }
 
-footer i:nth-of-type(2) {
+footer a:nth-of-type(2) {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
+    color: black;
 }
 
-footer i:last-of-type {
+footer a:last-of-type {
     position: absolute;
     top: 50%;
     right: 16%;
     font-size: 30px;
+    color: black;
 }
 
